@@ -21,14 +21,17 @@ struct NavigationBarWithButton: ViewModifier {
                         action: {
                             print("자산 추가 버튼 클릭!")
                         }, label: {
-                            Image(systemName: "plus")
-                            Text("자산 추가")
-                                .font(.system(size: 15))
+                            HStack(spacing: 5) {
+                                Image(systemName: "plus")
+                                Text("자산 추가")
+                                    .font(.system(size: 15))
+                            }
+                            .padding(6)
+                            .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black))
                         }
                     )
                     .accentColor(.black)
-                    .padding(8)
-                    .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black))
+                    
             )
             .navigationBarTitleDisplayMode(.inline)
             .onAppear {

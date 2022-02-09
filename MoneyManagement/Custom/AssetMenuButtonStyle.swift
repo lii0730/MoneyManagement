@@ -22,7 +22,7 @@ struct AssetMenuButtonStyle: ButtonStyle {
         .padding()
         .foregroundColor(.blue)
         .background(Color.white)
-        .clipShape(RoundedRectangle(cornerRadius: 10))
+        .clipShape(RoundedRectangle(cornerRadius: 20))
     }
 }
 
@@ -46,6 +46,7 @@ struct AssetMenuButtonStyle_Previews: PreviewProvider {
             }.buttonStyle(AssetMenuButtonStyle(menu: .cash))
             
         }
+        .padding(5)
         .background(Color.gray.opacity(0.5))
     }
 }

@@ -26,12 +26,15 @@ struct ContentView: View {
             }
             .tag(Tab.asset)
             
-            Color.blue.edgesIgnoringSafeArea(.top).tabItem {
+            Text("Hello")
+                .customTextStyle()
+                .tabItem {
                 Image(systemName: "hand.thumbsup.fill")
                 Text("추천")
             }
             .tag(Tab.recommend)
             
+            //MARK: Yellow View에 대한 탭 아이템을 설정
             Color.yellow.edgesIgnoringSafeArea(.top).tabItem {
                 Image(systemName: "bell.fill")
                 Text("알림")
@@ -51,5 +54,11 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+extension View {
+    func customTextStyle() -> some View {
+        modifier(CustomTextModifier())
     }
 }
