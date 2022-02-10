@@ -23,15 +23,15 @@ struct AssetBannerView: View {
         }
         
         ZStack(alignment: .bottomTrailing) {
-//            PageViewController(pages: bannerCards, currentPage: $currentPage)
-//            PageControl(numberOfPages: bannerCards.count, currentPage: $currentPage)
-//                .frame(width: CGFloat(bannerCards.count * 18))
-//                .padding(.trailing)
-            
-            PracticePageVC(currentPage: $currentPage, pages: bannerCards)
-            PracticePageControl(numberOfPages: bannerCards.count, currentPage: $currentPage)
+            PageViewController(pages: bannerCards, currentPage: $currentPage)
+            PageControl(numberOfPages: bannerCards.count, currentPage: $currentPage)
                 .frame(width: CGFloat(bannerCards.count * 18))
                 .padding(.trailing)
+            
+//            PracticePageVC(currentPage: $currentPage, pages: bannerCards)
+//            PracticePageControl(numberOfPages: bannerCards.count, currentPage: $currentPage)
+//                .frame(width: CGFloat(bannerCards.count * 18))
+//                .padding(.trailing)
         }
     }
 }

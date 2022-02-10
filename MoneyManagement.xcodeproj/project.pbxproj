@@ -21,6 +21,14 @@
 		994CA65027B1668C00F455BC /* NavigationBarWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994CA64F27B1668C00F455BC /* NavigationBarWithButton.swift */; };
 		999D528027B39882009CCA58 /* PracticePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999D527F27B39882009CCA58 /* PracticePageVC.swift */; };
 		999D528227B3AA0E009CCA58 /* PracticePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999D528127B3AA0E009CCA58 /* PracticePageControl.swift */; };
+		999D528427B3F2F5009CCA58 /* assets.json in Resources */ = {isa = PBXBuildFile; fileRef = 999D528327B3F2F5009CCA58 /* assets.json */; };
+		99C4720827B3F38B00428325 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C4720727B3F38B00428325 /* Asset.swift */; };
+		99C4720A27B3F43C00428325 /* AssetSummaryDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C4720927B3F43C00428325 /* AssetSummaryDataView.swift */; };
+		99C4720C27B3F5F300428325 /* AssetSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C4720B27B3F5F300428325 /* AssetSectionHeaderView.swift */; };
+		99C4720E27B3FE6900428325 /* AssetSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C4720D27B3FE6900428325 /* AssetSectionView.swift */; };
+		99C4721027B4002700428325 /* AssetSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C4720F27B4002700428325 /* AssetSummaryView.swift */; };
+		99C4721227B4156700428325 /* TabMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C4721127B4156700428325 /* TabMenuView.swift */; };
+		99C4721427B4189200428325 /* AssetCardSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C4721327B4189200428325 /* AssetCardSectionView.swift */; };
 		99E9565E27B16EAC00D9A76E /* AssetMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9565D27B16EAC00D9A76E /* AssetMenu.swift */; };
 		99E9566027B1706A00D9A76E /* AssetMenuButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9565F27B1706A00D9A76E /* AssetMenuButtonStyle.swift */; };
 		99E9566227B172CB00D9A76E /* AssetMenuGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9566127B172CB00D9A76E /* AssetMenuGridView.swift */; };
@@ -43,6 +51,14 @@
 		994CA64F27B1668C00F455BC /* NavigationBarWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWithButton.swift; sourceTree = "<group>"; };
 		999D527F27B39882009CCA58 /* PracticePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePageVC.swift; sourceTree = "<group>"; };
 		999D528127B3AA0E009CCA58 /* PracticePageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePageControl.swift; sourceTree = "<group>"; };
+		999D528327B3F2F5009CCA58 /* assets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = assets.json; sourceTree = "<group>"; };
+		99C4720727B3F38B00428325 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		99C4720927B3F43C00428325 /* AssetSummaryDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSummaryDataView.swift; sourceTree = "<group>"; };
+		99C4720B27B3F5F300428325 /* AssetSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSectionHeaderView.swift; sourceTree = "<group>"; };
+		99C4720D27B3FE6900428325 /* AssetSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSectionView.swift; sourceTree = "<group>"; };
+		99C4720F27B4002700428325 /* AssetSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSummaryView.swift; sourceTree = "<group>"; };
+		99C4721127B4156700428325 /* TabMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenuView.swift; sourceTree = "<group>"; };
+		99C4721327B4189200428325 /* AssetCardSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetCardSectionView.swift; sourceTree = "<group>"; };
 		99E9565D27B16EAC00D9A76E /* AssetMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetMenu.swift; sourceTree = "<group>"; };
 		99E9565F27B1706A00D9A76E /* AssetMenuButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetMenuButtonStyle.swift; sourceTree = "<group>"; };
 		99E9566127B172CB00D9A76E /* AssetMenuGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetMenuGridView.swift; sourceTree = "<group>"; };
@@ -66,11 +82,16 @@
 				994CA64327B156DF00F455BC /* ContentView.swift */,
 				99E9566127B172CB00D9A76E /* AssetMenuGridView.swift */,
 				99E9566327B1741800D9A76E /* AssetView.swift */,
-				990FED0D27B2AE72003A8937 /* AssetBanner.swift */,
 				990FED1127B2AEC6003A8937 /* BannerCardView.swift */,
 				990FED1327B2AF99003A8937 /* PageViewController.swift */,
 				990FED1527B2B32F003A8937 /* PageControl.swift */,
 				990FED1727B2B4E9003A8937 /* AssetBannerView.swift */,
+				99C4720927B3F43C00428325 /* AssetSummaryDataView.swift */,
+				99C4720B27B3F5F300428325 /* AssetSectionHeaderView.swift */,
+				99C4720D27B3FE6900428325 /* AssetSectionView.swift */,
+				99C4720F27B4002700428325 /* AssetSummaryView.swift */,
+				99C4721127B4156700428325 /* TabMenuView.swift */,
+				99C4721327B4189200428325 /* AssetCardSectionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -104,11 +125,13 @@
 		994CA64027B156DF00F455BC /* MoneyManagement */ = {
 			isa = PBXGroup;
 			children = (
+				999D528527B3F356009CCA58 /* Entity */,
 				999D527E27B3984E009CCA58 /* Practice */,
 				990FED0A27B26180003A8937 /* Custom */,
 				990FED0927B2616D003A8937 /* View */,
 				999D527D27B3983B009CCA58 /* App */,
 				994CA64527B156E100F455BC /* Assets.xcassets */,
+				999D528327B3F2F5009CCA58 /* assets.json */,
 				994CA64727B156E200F455BC /* Preview Content */,
 			);
 			path = MoneyManagement;
@@ -126,7 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				994CA64127B156DF00F455BC /* MoneyManagementApp.swift */,
-				99E9565D27B16EAC00D9A76E /* AssetMenu.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -139,6 +161,16 @@
 				999D528127B3AA0E009CCA58 /* PracticePageControl.swift */,
 			);
 			path = Practice;
+			sourceTree = "<group>";
+		};
+		999D528527B3F356009CCA58 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				990FED0D27B2AE72003A8937 /* AssetBanner.swift */,
+				99C4720727B3F38B00428325 /* Asset.swift */,
+				99E9565D27B16EAC00D9A76E /* AssetMenu.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				999D528427B3F2F5009CCA58 /* assets.json in Resources */,
 				994CA64927B156E200F455BC /* Preview Assets.xcassets in Resources */,
 				994CA64627B156E100F455BC /* Assets.xcassets in Resources */,
 			);
@@ -213,20 +246,27 @@
 			files = (
 				99E9566227B172CB00D9A76E /* AssetMenuGridView.swift in Sources */,
 				990FED1827B2B4E9003A8937 /* AssetBannerView.swift in Sources */,
+				99C4720A27B3F43C00428325 /* AssetSummaryDataView.swift in Sources */,
 				994CA65027B1668C00F455BC /* NavigationBarWithButton.swift in Sources */,
 				990FED0827B2517D003A8937 /* CustomTextModifier.swift in Sources */,
 				990FED1627B2B32F003A8937 /* PageControl.swift in Sources */,
+				99C4721427B4189200428325 /* AssetCardSectionView.swift in Sources */,
 				990FED1427B2AF99003A8937 /* PageViewController.swift in Sources */,
 				99E9566427B1741800D9A76E /* AssetView.swift in Sources */,
 				990FED0E27B2AE72003A8937 /* AssetBanner.swift in Sources */,
+				99C4720E27B3FE6900428325 /* AssetSectionView.swift in Sources */,
 				994CA64427B156DF00F455BC /* ContentView.swift in Sources */,
+				99C4721227B4156700428325 /* TabMenuView.swift in Sources */,
 				999D528027B39882009CCA58 /* PracticePageVC.swift in Sources */,
 				994CA64227B156DF00F455BC /* MoneyManagementApp.swift in Sources */,
+				99C4720C27B3F5F300428325 /* AssetSectionHeaderView.swift in Sources */,
+				99C4720827B3F38B00428325 /* Asset.swift in Sources */,
 				99E9565E27B16EAC00D9A76E /* AssetMenu.swift in Sources */,
 				99E9566027B1706A00D9A76E /* AssetMenuButtonStyle.swift in Sources */,
 				999D528227B3AA0E009CCA58 /* PracticePageControl.swift in Sources */,
 				990FED0C27B261AC003A8937 /* AssetMenuStackView.swift in Sources */,
 				990FED1227B2AEC6003A8937 /* BannerCardView.swift in Sources */,
+				99C4721027B4002700428325 /* AssetSummaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

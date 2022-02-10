@@ -36,9 +36,9 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
         // setViewControllers의 UIViewController는 보여질 화면의 배열 및 첫 화면
         pageViewController.setViewControllers([context.coordinator.controllers[currentPage]], direction: .forward, animated: true)
     }
+}
 
-
-
+extension PageViewController {
     class Coordinator: NSObject, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
         var parent: PageViewController
         var controllers = [UIViewController]()
@@ -82,4 +82,5 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
         }
     }
 }
+    
 
